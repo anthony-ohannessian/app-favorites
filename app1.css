@@ -1,0 +1,28 @@
+#effects {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+#container, #particles-js {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* .container {
+    width: 100vw;
+    height: 100vh;
+} */
+
+#particles-js {
+    z-index: 1;
+}
+
+.instagram-media {
+    padding: 0px !important;
+    margin: 0Px !important;
+}
+

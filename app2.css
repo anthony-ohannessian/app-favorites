@@ -1,0 +1,167 @@
+html, body {
+    background: transparent;
+    height: 500vh;
+}
+  
+body {
+    background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+  
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), white 75%);
+}
+  
+.content {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    max-width: 100%;
+    width: 100vw;
+    position: relative;
+}
+  
+div {
+    height: 200px;
+    line-height: 200px;
+    margin: 1em;
+}
+  
+.wrapper {
+    position: absolute;
+}
+  
+.visa, .shoes, .surf, .phone {
+    position: absolute;
+}
+  
+.visa {
+    z-index: 90;
+}
+  
+.visa-img {
+    width: 300px;
+    height: auto;
+}
+  
+.shoes {
+    bottom: -200px;
+    left: 500px;
+    z-index: 10;
+}
+  
+.shoes-img {
+    width: 200px;
+    height: auto;
+    bottom: 100px;
+}
+  
+.surf {
+    bottom: -100px;
+    left: 750px;
+    z-index: 100;
+}
+  
+.surf-img {
+    width: 400px;
+    height: auto;
+    bottom: -10px;
+}
+  
+.phone {
+    z-index: 10;
+}
+  
+.phone-img {
+    width: 400px;
+    height: auto;
+}
+  
+.rib, .compte {
+    position: absolute;
+}
+  
+.compte {
+    bottom: -300px;
+    left: 200px;
+    z-index: 10;
+}
+  
+.compte-img {
+    width: 400px;
+    height: auto;
+}
+  
+.rib {
+    left: 350px;
+    z-index: 100;
+}
+  
+.rib-img {
+    width: 400px;
+    height: auto;
+}
+  
+.heart {
+    left: 150px;
+    z-index: 50;
+}
+  
+.heart-img {
+    width: 500px;
+    height: auto;
+}
+  
+.happy, .account {
+    position: absolute;
+}
+  
+.happy {
+    z-index: 100;
+    left: 900px;
+    bottom: -150px;
+}
+  
+.happy-img {
+    width: 400px;
+    height: auto;
+}
+  
+.account {
+    z-index: 10;
+    left: 700px;
+}
+  
+.account-img {
+    width: 500px;
+    height: auto;
+}
+  
+.radar {
+    position: absolute;
+}
+  
+.radar {
+    z-index: 20;
+    left: 350px;
+}
+  
+.radar-img {
+    width: 500px;
+    height: auto;
+}
+
+footer {
+    background: transparent !important;
+    padding: 0rem !important;
+    text-align: center;
+}

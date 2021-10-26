@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font Connect  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="app-favorites.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>app favorites</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="fs-2 fw-bold pt-5 pb-5">
+            mes apps favorites
+        </div>
+        </header>
+
+        <!-- Main -->
+        <main class="container">
+        <!-- App List -->
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <!-- First App Tab -->
+            <li class="nav-item apps" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                    <div class="first-app-img">
+                        <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/76/31/e8/7631e8d1-b14f-1cc9-1c73-b180ec8d38a9/AppIcon-0-0-1x_U007emarketing-0-0-0-1-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp"
+                            class="img-fluid">
+                        <div class="first-app-name fs-2">
+                            Co-Star
+                            <div class="fw-light fs-6">
+                            Personalized Astrology App
+                            </div>
+                        </div>
+                    </div>
+                </button>
+            </li>
+            <!-- Second App Tab -->    
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                    <div class="second-app-img">
+                        <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/a1/66/a3/a166a3f9-ddde-e4e5-4548-92b1a09f8a5a/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp"
+                            class="img-fluid">
+                        <div class="second-app-name fs-2">
+                            Lydia
+                            <div class="fw-light fs-6">
+                            La super-app pour votre argent
+                            </div>
+                        </div>
+                    </div>
+                </button>
+            </li>
+            <!-- Third App Tab -->    
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <div class="second-app-img">
+                        <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/49/0b/21/490b21cc-3386-28b0-4b00-cfb1fa1bd0a5/AppIcon-Release-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp"
+                            class="img-fluid">
+                        <div class="second-app-name fs-2">
+                            Citymapper
+                            <div class="fw-light fs-6">
+                            Itinéraires Bus, Métro, RER &+
+                            </div>
+                        </div>
+                    </div>
+                </button>
+            </li>
+        </ul>
+        <!-- Tab Legends -->
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <!-- First Tab Legend -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-7 text-center fw-bolder">
+                            Co–Star is a hyper-personalized, social experience bringing astrology into the 21st century.
+                            <div class="link-to-app pt-4">
+                                <a class="btn btn-outline-primary" href="app1.html" role="button">Link to App Page</a> 
+                            </div>
+                        <div class="pt-4 fs-6 fw-light">
+                            Typical horoscopes are written only to a person’s sun sign. But that’s only one part of your astrological chart. It doesn’t take into account the moon, other planets in the solar system, or the 12 houses of the zodiac—each of which represents a different part of your life, like relationships, work, and home. Even if you're an Aries Sun, a Libra moon or a Virgo rising change everything.
+                        </div>
+                    </div>
+                </div>
+                <!-- First App Overflow Scroll Content -->
+                <div class="d-flex p-4 pb-5 justify-content-center">
+                    <ul class="col-10 flex-row list-group overflow-scroll">
+                        <li class="col-4 list-group-item screenshots">
+                            <img src="https://is5-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/9b/66/6a/9b666aa2-238a-f8d5-c923-889680ded9ce/9ad853cd-894b-4bb3-b0ff-5a5100365603_iPhoneX-1.png/460x0w.webp"
+                                class="img-fluid">                     
+                        </li>
+                        <li class="col-4 list-group-item screenshots">
+                            <img src="https://is3-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/3e/75/b4/3e75b4bd-5d06-fae9-a582-979bc6005026/ef248ff9-d398-47a2-9c4b-b37c2493e0b6_iPhoneX-2.png/460x0w.webp" 
+                                class="img-fluid">
+                        </li>
+                        <li class="col-4 list-group-item screenshots">
+                            <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/d5/34/f2/d534f2ef-8ce2-b8bb-67c3-5dc6cdcb94dc/7783580d-34bc-49a8-bc0e-aa16d9295ba4_iPhoneX-3.png/460x0w.webp"
+                                class="img-fluid">
+                        </li>
+                        <li class="col-4 list-group-item screenshots">
+                            <img src="https://is5-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/93/f2/3e/93f23ed3-1b99-5ee2-db81-5562d22c4c75/0ef49a42-7725-45f4-ad60-0c6d3a26926a_iPhoneX-4.png/460x0w.webp"
+                                class="img-fluid">                        
+                        </li>
+                        <li class="col-4 list-group-item screenshots">
+                            <img src="https://is2-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/7d/8e/21/7d8e2125-8ed4-2ddc-7555-6ce79d67e303/4cc4b63b-07f2-4ec7-ad0f-7e57e3687b40_iPhoneX-5.png/460x0w.webp"
+                                class="img-fluid">
+                        </li>
+                        <li class="col-4 list-group-item screenshots">
+                            <img src="https://is2-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/7d/8e/21/7d8e2125-8ed4-2ddc-7555-6ce79d67e303/4cc4b63b-07f2-4ec7-ad0f-7e57e3687b40_iPhoneX-5.png/460x0w.webp"
+                                class="img-fluid">
+                        </li>
+                    </ul>
+                </div>
+                <!-- First Tab App Description -->
+                <div class="row d-flex pb-4 justify-content-center">
+                    <div class="col-7 pt-2 fs-6 text-center fw-light">                        
+                            Co–Star's predictions are based on a map of the sky at your exact time and place of birth, coupled with NASA data to track the planets as they move. Then AI creates hyper-personalized horoscopes on a scale previously unimaginable.
+
+                        <div class="pt-2 fs-6 fw-light">
+                            By positioning human experience against a backdrop of a vast universe, Co-Star creates a shortcut to real talk in a sea of small talk: a way to talk about who we are and how we relate to each other. It doesn’t reduce complexity. It doesn’t judge. It understands.
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <!-- Second Tab Legend -->
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-7 text-center fw-bolder">
+                                    Après avoir révolutionné le paiement entre proches pour des millions de Français, Lydia réinvente aujourd'hui leur compte courant, l'épargne et les comptes communs.
+                                    <div class="link-to-app pt-4">
+                                        <a class="btn btn-outline-primary" href="app2.html" role="button">Lien vers la page de l'App</a> 
+                                    </div>
+                                <div class="pt-4 fs-6 fw-light">
+                                    En quelques secondes, vous pourrez toujours :
+                                    <div class="text-break">
+                                        - Payer n'importe quel contact via son numéro de téléphone ;
+                                    </div>
+                                    <div class="text-break">
+                                        - Demander un remboursement à un proche ou partager une addition avec des amis ;
+                                    </div>
+                                    <div class="text-break">
+                                        - Collecter de l'argent pour tous vos évènements avec des cagnottes en ligne.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Second App Overflow Scroll Content -->
+                        <div class="d-flex p-4 pb-5 justify-content-center">
+                            <ul class="col-10 flex-row list-group overflow-scroll">
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/a8/b5/db/a8b5dbea-b4a2-0251-1f08-c66714c8a2dc/53d78f00-9ced-4ae4-b926-3dbc2803bc6b_1.jpg/460x0w.webp"
+                                        class="img-fluid">                   
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/1c/f1/5f/1cf15f7e-bace-b68f-34f1-a3cb218f7694/1bdb43e1-6c68-443d-a796-eb31010604aa_2.jpg/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/06/2f/85/062f857e-6f30-0591-1891-748b2a80c3bb/dea76810-df02-4b55-83ed-904050899909_3.jpg/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/2b/ea/ed/2beaed32-d71d-4fe2-8965-46c97cb80144/9103dd44-d839-44bd-a31e-ec79b9b564d3_4.jpg/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/2b/22/d0/2b22d077-9219-aab0-f2f9-d249853bee13/c2a56b8c-0b23-4276-b51f-da83fc2991f9_5.jpg/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/bf/3f/42/bf3f4267-486b-3acb-6938-0eeec3c66880/e31752ac-8dba-41e9-97ea-7de1208ba779_6.jpg/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/f1/b7/7c/f1b77caa-be7a-7db8-0e48-66d99e0fd305/51031c91-0b6f-47a4-811a-13b750174f41_7.jpg/460x0w.webp"
+                                        class="img-fluid">
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is4-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/43/12/4c/43124c60-e24b-5c7c-b0a3-6d71349aa6c7/222c0514-9d38-4749-8bb0-44791784d9b1_5.jpg/460x0w.webp"
+                                        class="img-fluid">
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is5-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/b9/c3/ee/b9c3ee4c-edc3-76d4-0700-7706b0913dc0/e5db354b-3c08-4e25-81c4-d7efb3736a0a_6.jpg/460x0w.webp"
+                                        class="img-fluid">
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Second Tab App Description -->
+                        <div class="row pb-4 d-flex justify-content-center text-center">
+                            <div class="pt-2 fs-6 fw-light">
+                                    Et désormais, vous pouvez aussi :
+                                    <div class="text-break">
+                                        - Dépenser votre argent en magasin avec la carte Visa Debit Lydia ;
+                                    </div>
+                                    <div class="text-break">
+                                        - Profiter du sans contact, sans limite de montant, pour tous vos achats, grâce à Apple Pay ;
+                                    </div>
+                                    <div class="text-break">
+                                        - Suivre votre solde en direct et recevoir une notification instantanée pour chacun de vos paiements ;
+                                    </div>
+                                    <div class="text-break">
+                                        - Retirer et payer sans frais à l’étranger ;
+                                    </div>
+                                    <div class="text-break">
+                                        - Recevoir des virements bancaires sur votre nouvel IBAN Lydia.
+                                    </div>
+                            </div>
+                            <div class="pt-4 fs-6 fw-light">
+                                        Sans oublier...
+                                    <div class="tex-break">
+                                        - Les cartes Internet éphémères, pour sécuriser totalement vos achats sur Internet ;
+                                    </div>
+                                    <div class="text-break">
+                                        - Vos autres comptes bancaires que vous pouvez connecter à Lydia pour ne plus avoir besoin que d'une seule application ;
+                                    </div>
+                                    <div class="text-break">
+                                        - Les sous-comptes que vous pouvez créer pour mieux organiser votre argent, ou partager pour faciliter vos dépenses en couple, en colocation, ou en famille ;
+                                    </div>
+                                    <div class="text-break">
+                                        - Les cartes cadeaux à offrir ou pour se faire plaisir.
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <!-- Third Tab Legend -->
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-7 text-center fw-bolder">
+                                    L'application de tous vos déplacements - trouvez le meilleur itinéraire sur tous les modes de transport à travers le monde : en transports en commun, à vélo, en trottinette, et à pieds !
+                                    <div class="link-to-app pt-4">
+                                        <a class="btn btn-outline-primary" href="app3.html" role="button">Lien vers la page de l'App</a>
+                                    </div>
+                                <div class="pt-4 fs-6 fw-light">
+                                    LES MEILLEURS ITINÉRAIRES 
+                                    <div class="pt-1 tex-break">
+                                        Notre comparateur d'itinéraires combine instantanément tous les modes de transport disponibles : métro, bus, tram, RER, Transilien, train, TER, taxis, VTC, vélos, trottinettes, scooters, voitures partagées et la marche. La multimodalité dans toute sa splendeur.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Third App Overflow Scroll Content -->
+                        <div class="d-flex p-4 pb-5 justify-content-center">
+                            <ul class="col-10 flex-row list-group overflow-scroll">
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is4-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/00/1c/f5/001cf565-1e4d-0fcf-8e9d-7dc143c0b93a/98eaa857-4e04-4cc8-8e45-eb88c4c3908f_6.5in_1_AppStore-fr.png/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is5-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/73/ec/01/73ec0104-c29c-ce57-30d6-ba795fd86816/b3d6b213-0e5b-4985-8d7d-39cc5fe5ad24_6.5in_2_AppStore-fr.png/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is4-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/71/1b/84/711b84e7-6d9e-9171-e30d-7444f4fc2953/1dd5e1e2-8c36-4419-9aac-0dce6e522957_6.5in_3_AppStore-fr.png/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is2-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/11/86/41/11864117-f260-258e-4be9-65aec77d375d/6e1791f5-ffe7-4e32-8963-4e8f7464dcba_6.5in_4_AppStore-fr.png/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/c1/40/7a/c1407adc-773e-6ab5-ca80-0d7bb6e45b0b/8bccb75a-2d67-4b1a-9ffc-32da17347d1a_6.5in_5_AppStore-fr.png/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is2-ssl.mzstatic.com/image/thumb/PurpleSource125/v4/13/bb/1e/13bb1ef7-ed06-b902-ad61-96974abe1e75/2d159c87-fcc4-4e17-88a2-4fe1028a34e0_6.5in_6_AppStore-fr.png/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is3-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/45/63/b7/4563b7fb-68f8-b724-0dd6-4eef864e1aa8/9646d2c5-0020-447c-91bc-42b968028157_6.5in_7_AppStore-fr.png/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is4-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/22/b5/d5/22b5d547-3972-d5f1-4255-ec4028739900/b7cc2fc5-078d-4653-afb2-5e0c7a30835e_6.5in_8_AppStore-fr.png/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                                <li class="col-4 list-group-item screenshots">
+                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource115/v4/04/ab/91/04ab91ea-6068-903f-3b8d-312e16e2a044/87f23915-8c3b-4a7b-904c-7fa6cdca8c4c_6.5in_9_AppStore-fr.png/460x0w.webp"
+                                        class="img-fluid">                     
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Third Tab App Description -->
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-7 pb-4 text-center fw-bolder">                                
+                                <div class="pt-4 fs-6 fw-light">
+                                    NAVIGATION ÉTAPE PAR ÉTAPE AVEC L’ASSISTANT GO
+                                    <div class="pt-1 text-break">
+                                        Laissez-vous guider étape par étape pour tous vos déplacements : en transports en commun, à vélo, en trottinette, et à pieds. Choisissez parmi 3 vues de plans pour le guidage, vérifiez le niveau de recharge des vélos électriques et trottinettes, et évitez les zones de stationnement interdites. On s’occupe de toute la logistique pour que vous profitiez pleinement du trajet.
+                                    </div>
+                                </div>
+                                <div class="pt-4 fs-6 fw-light">
+                                    TOUS LES MODES DE TRANSPORT
+                                    <div class="pt-1 text-break">
+                                        Comparez le prix des taxis / VTC et commandez votre course, embarquez sur la trottinette la plus proche, ou trouvez un vélo partagé, le tout depuis l’appli. En partenariat avec Uber, Kapten, G7, Heetch, Marcel, SHARE NOW, Getaround, Virtuo, Dott, TIER, Cityscoot, Vélib’, Vélo’v, VélO2, Cristolib.
+                                    </div>
+                                </div>
+                                <div class="pt-4 fs-6 fw-light">
+                                    UNE APPLI PERSONNALISÉE
+                                    <div class="pt-1 text-break">
+                                        Enregistrez votre domicile, votre lieu de travail et vos endroits favoris pour calculer des itinéraires à vitesse grand V. Abonnez vous aux alertes pour vos lignes de bus, métro ou train préférés afin de ne jamais rater une perturbation ou une grève.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>               
+                    </div>
+        </div>
+        </main>
+    </div>
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
+

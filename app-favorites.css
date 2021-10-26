@@ -1,0 +1,259 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tab-content>.active {
+    display: block;
+    padding-top: 100px;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef #dee2e6;
+    isolation: isolate;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black !important;
+    background-color: white !important;
+    /* -webkit-box-shadow: 0px 0px 50px 0px #000000; 
+    box-shadow: 0px 0px 50px 0px #000000;
+    filter: none; */
+}
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* first-app */
+.first-app-img {
+    max-width: 230px;
+    max-height: 230px;
+}
+
+.first-app-img:hover {
+	cursor: pointer;
+}
+
+.first-app-img img {
+	filter: grayscale();
+	border-radius: 15%;
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 1rem;
+	transition: filter 0.4s ease-in-out;
+}
+
+.first-app-img:hover img {
+	filter: none;
+}
+
+.first-app-name {
+	color: black;
+	position: relative;
+}
+
+.first-app-name::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: black;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.first-app-img:hover .first-app-name::after {
+	width: 100%;
+	left: 0;
+}
+
+.first-app-img {
+    max-width: 230px;
+    max-height: 230px;
+}
+
+.first-app-img:hover {
+	cursor: pointer;
+}
+
+.first-app-img img {
+	filter: grayscale();
+	border-radius: 15%;
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 1rem;
+	transition: filter 0.4s ease-in-out;
+}
+
+/* second-app */
+.second-app-img {
+    max-width: 230px;
+    max-height: 230px;
+}
+
+.second-app-img:hover {
+	cursor: pointer;
+}
+
+.second-app-img img {
+	filter: grayscale();
+	border-radius: 15%;
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 1rem;
+	transition: filter 0.4s ease-in-out;
+}
+
+.second-app-img:hover img {
+	filter: none;
+}
+
+.second-app-name {
+	color: black;
+	position: relative;
+}
+
+.second-app-name::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: black;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.second-app-img:hover .second-app-name::after {
+	width: 100%;
+	left: 0;
+}
+
+.second-app-img {
+    max-width: 230px;
+    max-height: 230px;
+}
+
+.second-app-img:hover {
+	cursor: pointer;
+}
+
+.second-app-img img {
+	filter: grayscale();
+	border-radius: 15%;
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 1rem;
+	transition: filter 0.4s ease-in-out;
+}
+
+/* third-app */
+.third-app-img {
+    max-width: 230px;
+    max-height: 230px;
+}
+
+.third-app-img:hover {
+	cursor: pointer;
+}
+
+.third-app-img img {
+	filter: grayscale();
+	border-radius: 15%;
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 1rem;
+	transition: filter 0.4s ease-in-out;
+}
+
+.third-app-img:hover img {
+	filter: none;
+}
+
+.third-app-name {
+	color: black;
+	position: relative;
+}
+
+.third-app-name::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: black;
+	left: 50%;
+	bottom: -10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.third-app-img:hover .third-app-name::after {
+	width: 100%;
+	left: 0;
+}
+
+.third-app-img {
+    max-width: 230px;
+    max-height: 230px;
+}
+
+.third-app-img:hover {
+	cursor: pointer;
+}
+
+.third-app-img img {
+	filter: grayscale();
+	border-radius: 15%;
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 1rem;
+	transition: filter 0.4s ease-in-out;
+}
+
+/* screenshots */
+.screenshots {
+    max-width: 460px;
+    max-height: 996px;
+    /* border-radius: 1rem !important; */
+    /* background-image: url("https://apps.apple.com/assets/images/masks/iphone-6-5-mask-border-f519029c9bc5f9130e7826c69b475d0b.svg");
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+    background-size: 100%; */
+}
+.img-fluid {
+    border-radius: 1rem !important;   
+}
+
+.list-group-item {
+    border: 0px solid rgba(0,0,0,.125) !important;
+    padding: .5rem .25rem !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
